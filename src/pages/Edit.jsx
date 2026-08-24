@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchTransactionById, editTransaction } from '../redux/transactionsSlice';
 import TransactionForm from '../components/TransactionForm';
@@ -38,7 +38,7 @@ export default function Edit() {
 
   return (
     <div className="app-container">
-      <Link to={`/transactions/${id}`} className="back-link">← Quay lại</Link>
+      <button className="back-link" onClick={() => navigate(`/transactions/${id}`)}>← Quay lại</button>
       <h1>Sửa giao dịch</h1>
       <TransactionForm
         initialData={transaction}

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/transactions';
+const API_URL = 'http://localhost:8000/transactions';
 
 // Lấy tất cả giao dịch
 export async function getAllTransactions() {

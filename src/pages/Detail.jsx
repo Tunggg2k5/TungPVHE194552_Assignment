@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchTransactionById } from '../redux/transactionsSlice';
 import { formatMoney, formatDate } from '../utils/format';
 
 export default function Detail() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const transaction = useSelector((state) =>
     state.transactions.items.find((t) => t.id === id)
@@ -28,7 +29,7 @@ export default function Detail() {
 
   return (
     <div className="app-container">
-      <Link to="/transactions" className="back-link">← Quay lại</Link>
+      <button className="back-link btn-back" onClick={() => navigate('/transactions')}>← Quay lại</button>
 
       <div className="detail-card">
         <div className="detail-header">
@@ -38,7 +39,7 @@ export default function Detail() {
               {transaction.type === 'income' ? 'Thu nhập' : 'Chi tiêu'}
             </span>
           </div>
-          <Link to={`/transactions/${id}/edit`} className="btn-primary">✏️ Sửa</Link>
+          <button className="btn-primary" onClick={() => navigate(`/transactions/${id}/edit`)}>✏️ Sửa</button>
         </div>
 
         <p className="detail-desc">{transaction.description}</p>

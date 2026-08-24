@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addTransaction } from '../redux/transactionsSlice';
 import TransactionForm from '../components/TransactionForm';
@@ -23,7 +23,7 @@ export default function Create() {
 
   return (
     <div className="app-container">
-      <Link to="/transactions" className="back-link">← Quay lại</Link>
+      <button className="back-link" onClick={() => navigate('/transactions')}>← Quay lại</button>
       <h1>Thêm giao dịch mới</h1>
       <TransactionForm onSubmit={handleSubmit} saving={saving} />
     </div>

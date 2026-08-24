@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { fetchTransactions, removeTransaction } from '../redux/transactionsSlice';
 import { formatMoney, formatDate } from '../utils/format';
 import { CATEGORIES } from '../utils/constants';
@@ -8,6 +8,7 @@ import useFilter from '../hooks/useFilter';
 
 export default function Home() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const { items: transactions, status, error } = useSelector((state) => state.transactions);
 
   // Dùng custom hook để lọc
@@ -36,7 +37,7 @@ export default function Home() {
 
   return (
     <div className="app-container">
-      <h1>💰 Quản Lý Thu Chi Cá Nhân</h1>
+      <h1>Quản Lý Thu Chi Cá Nhân</h1>
 
       {/* Tóm tắt thu chi */}
       <div className="summary-row">
@@ -57,7 +58,7 @@ export default function Home() {
       {/* Thanh công cụ */}
       <div className="toolbar">
         <h2>Danh sách giao dịch</h2>
-        <Link to="/transactions/create" className="btn-primary">+ Thêm mới</Link>
+        <button className="btn-primary" onClick={() => navigate('/transactions/create')}>+ Thêm mới</button>
       </div>
 
       {/* Bộ lọc */}
@@ -129,8 +130,8 @@ export default function Home() {
                 </td>
                 <td>
                   <div className="btn-group">
-                    <Link to={`/transactions/${t.id}`} className="btn-sm btn-view">Xem</Link>
-                    <Link to={`/transactions/${t.id}/edit`} className="btn-sm btn-edit">Sửa</Link>
+                    <button className="btn-sm btn-view" onClick={() => navigate(`/transactions/${t.id}`)}>Xem</button>
+                    <button className="btn-sm btn-edit" onClick={() => navigate(`/transactions/${t.id}/edit`)}>Sửa</button>
                     <button className="btn-sm btn-del" onClick={() => handleDelete(t.id, t.title)}>Xóa</button>
                   </div>
                 </td>
