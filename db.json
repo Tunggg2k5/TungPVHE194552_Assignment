@@ -1,0 +1,244 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "title": "Lương tháng 8",
+      "description": "Thu nhập chính từ công việc toàn thời gian.",
+      "category": "Lương",
+      "type": "income",
+      "amount": 18500000,
+      "date": "2026-08-01",
+      "paymentMethod": "Chuyển khoản"
+    },
+    {
+      "id": "2",
+      "title": "Tiền thuê nhà tháng 8",
+      "description": "Thanh toán tiền thuê căn hộ studio.",
+      "category": "Nhà ở",
+      "type": "expense",
+      "amount": 5200000,
+      "date": "2026-08-03",
+      "paymentMethod": "Chuyển khoản"
+    },
+    {
+      "id": "3",
+      "title": "Hóa đơn điện",
+      "description": "Tiền điện sinh hoạt trong tháng 8.",
+      "category": "Nhà ở",
+      "type": "expense",
+      "amount": 450000,
+      "date": "2026-08-05",
+      "paymentMethod": "Ví điện tử"
+    },
+    {
+      "id": "4",
+      "title": "Mua thực phẩm ở WinMart",
+      "description": "Thực phẩm và đồ dùng gia đình trong tuần.",
+      "category": "Ăn uống",
+      "type": "expense",
+      "amount": 850000,
+      "date": "2026-08-07",
+      "paymentMethod": "Thẻ ghi nợ"
+    },
+    {
+      "id": "5",
+      "title": "Ăn trưa cùng nhóm",
+      "description": "Bữa trưa tại nhà hàng gần công ty.",
+      "category": "Ăn uống",
+      "type": "expense",
+      "amount": 320000,
+      "date": "2026-08-08",
+      "paymentMethod": "Tiền mặt"
+    },
+    {
+      "id": "6",
+      "title": "Dự án freelance landing page",
+      "description": "Thanh toán cho một dự án React nhỏ.",
+      "category": "Làm thêm",
+      "type": "income",
+      "amount": 3200000,
+      "date": "2026-08-10",
+      "paymentMethod": "Ví điện tử"
+    },
+    {
+      "id": "7",
+      "title": "Di chuyển bằng Grab",
+      "description": "Chi phí đi lại trong nửa đầu tháng 8.",
+      "category": "Di chuyển",
+      "type": "expense",
+      "amount": 480000,
+      "date": "2026-08-11",
+      "paymentMethod": "Ví điện tử"
+    },
+    {
+      "id": "8",
+      "title": "Vé xe buýt tháng",
+      "description": "Vé tháng cho phương tiện công cộng.",
+      "category": "Di chuyển",
+      "type": "expense",
+      "amount": 300000,
+      "date": "2026-08-12",
+      "paymentMethod": "Tiền mặt"
+    },
+    {
+      "id": "9",
+      "title": "Khóa học React",
+      "description": "Gói học trực tuyến để luyện tập frontend.",
+      "category": "Học tập",
+      "type": "expense",
+      "amount": 690000,
+      "date": "2026-08-15",
+      "paymentMethod": "Thẻ tín dụng"
+    },
+    {
+      "id": "10",
+      "title": "Sách tiếng Anh",
+      "description": "Sách mới để chuẩn bị cho IELTS.",
+      "category": "Học tập",
+      "type": "expense",
+      "amount": 280000,
+      "date": "2026-08-16",
+      "paymentMethod": "Thẻ ghi nợ"
+    },
+    {
+      "id": "11",
+      "title": "Mua thuốc tại nhà thuốc",
+      "description": "Vitamin và thuốc cơ bản.",
+      "category": "Sức khỏe",
+      "type": "expense",
+      "amount": 195000,
+      "date": "2026-08-17",
+      "paymentMethod": "Tiền mặt"
+    },
+    {
+      "id": "12",
+      "title": "Khám răng định kỳ",
+      "description": "Lấy cao răng và kiểm tra răng miệng.",
+      "category": "Sức khỏe",
+      "type": "expense",
+      "amount": 650000,
+      "date": "2026-08-18",
+      "paymentMethod": "Thẻ ghi nợ"
+    },
+    {
+      "id": "13",
+      "title": "Giày chạy bộ mới",
+      "description": "Mua giày thể thao tại cửa hàng địa phương.",
+      "category": "Mua sắm",
+      "type": "expense",
+      "amount": 1250000,
+      "date": "2026-08-19",
+      "paymentMethod": "Thẻ tín dụng"
+    },
+    {
+      "id": "14",
+      "title": "Vé xem phim",
+      "description": "Cuối tuần xem phim cùng bạn bè.",
+      "category": "Giải trí",
+      "type": "expense",
+      "amount": 240000,
+      "date": "2026-08-20",
+      "paymentMethod": "Ví điện tử"
+    },
+    {
+      "id": "15",
+      "title": "Gói nghe nhạc",
+      "description": "Gói nghe nhạc trực tuyến hằng tháng.",
+      "category": "Giải trí",
+      "type": "expense",
+      "amount": 59000,
+      "date": "2026-08-20",
+      "paymentMethod": "Thẻ tín dụng"
+    },
+    {
+      "id": "16",
+      "title": "Chuyển vào quỹ dự phòng",
+      "description": "Khoản tiết kiệm hằng tháng cho tài khoản dự phòng.",
+      "category": "Tiết kiệm",
+      "type": "expense",
+      "amount": 2000000,
+      "date": "2026-08-21",
+      "paymentMethod": "Chuyển khoản"
+    },
+    {
+      "id": "17",
+      "title": "Quà sinh nhật bạn",
+      "description": "Quà tặng và thiệp chúc mừng.",
+      "category": "Khác",
+      "type": "expense",
+      "amount": 350000,
+      "date": "2026-08-22",
+      "paymentMethod": "Tiền mặt"
+    },
+    {
+      "id": "18",
+      "title": "Cà phê học bài",
+      "description": "Cà phê buổi chiều khi học ở quán.",
+      "category": "Ăn uống",
+      "type": "expense",
+      "amount": 65000,
+      "date": "2026-08-22",
+      "paymentMethod": "Ví điện tử"
+    },
+    {
+      "id": "19",
+      "title": "Lương tháng 7",
+      "description": "Lương nhận cuối tháng 7.",
+      "category": "Lương",
+      "type": "income",
+      "amount": 18500000,
+      "date": "2026-07-31",
+      "paymentMethod": "Chuyển khoản"
+    },
+    {
+      "id": "20",
+      "title": "Thiết kế UI freelance",
+      "description": "Thanh toán cho bộ mockup ứng dụng di động.",
+      "category": "Làm thêm",
+      "type": "income",
+      "amount": 4500000,
+      "date": "2026-07-28",
+      "paymentMethod": "Chuyển khoản"
+    },
+    {
+      "id": "21",
+      "title": "Tiền thuê nhà tháng 7",
+      "description": "Thanh toán tiền thuê nhà tháng 7.",
+      "category": "Nhà ở",
+      "type": "expense",
+      "amount": 5200000,
+      "date": "2026-07-03",
+      "paymentMethod": "Chuyển khoản"
+    },
+    {
+      "id": "22",
+      "title": "Mua đồ siêu thị",
+      "description": "Mua thực phẩm dùng trong hai tuần.",
+      "category": "Ăn uống",
+      "type": "expense",
+      "amount": 1120000,
+      "date": "2026-07-15",
+      "paymentMethod": "Thẻ ghi nợ"
+    },
+    {
+      "id": "23",
+      "title": "Gói tập gym",
+      "description": "Gia hạn gói tập gym theo quý.",
+      "category": "Sức khỏe",
+      "type": "expense",
+      "amount": 900000,
+      "date": "2026-07-20",
+      "paymentMethod": "Thẻ tín dụng"
+    },
+    {
+      "id": "24",
+      "title": "Mua sắm online",
+      "description": "Tai nghe và ốp điện thoại trên Shopee.",
+      "category": "Mua sắm",
+      "type": "expense",
+      "amount": 890000,
+      "date": "2026-07-25",
+      "paymentMethod": "Ví điện tử"
+    }
+  ]
+}
